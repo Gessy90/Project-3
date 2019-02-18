@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const Dotenv = require('dotenv-webpack')
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: './src/app.js',
@@ -47,6 +48,9 @@ module.exports = {
       filename: 'index.html',
       inject: 'body'
     }),
-    new Dotenv()
+    new Dotenv(),
+    new CopyWebpackPlugin([
+      {from: 'src/accests', to: 'accests'}
+    ])
   ]
 }

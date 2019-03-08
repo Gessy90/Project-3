@@ -15,27 +15,27 @@ mongoose.connect(dbURI, (err, db) => {
       return User.create([{
         username: 'Tom',
         email: 't@mail.com',
-        image: 'https://cdn.filestackcontent.com/bUezLSDsQJGpiT2tsecS',
+        image: 'https://www.w3schools.com/w3images/avatar2.png',
         password: 't',
         passwordConfirmation: 't'
       },
       {
         username: 'Dexter',
         email: 'd@mail.com',
-        image: 'https://cdn.filestackcontent.com/BF5z5RVoRAq2gJ5rG9d7',
+        image: 'https://png.pngtree.com/element_our/png_detail/20181102/avatar-profile-logo-vector-emblem-illustration-modern-illustration-png_227485.jpg',
         password: 'd',
         passwordConfirmation: 'd'
       },
       {
         username: 'Bete',
         email: 'b@mail.com',
-        image: 'https://cdn.filestackcontent.com/bnorpUvFSNCtKKCVHnMW',
+        image: 'http://mcnurmahal.org/img/avtar.png',
         password: 'b',
         passwordConfirmation: 'b'
       },{
         username: 'Jessica',
         email: 'j@mail.com',
-        image: 'https://cdn.filestackcontent.com/iNyTMe2SnO19kvs9IQ0w',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRvbXS58ffkiq6gyWLPJ1mw-wsjDIzRtcFnxiEwSTW7dZ6XrS',
         password: 'j',
         passwordConfirmation: 'j'
       }

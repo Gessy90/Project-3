@@ -29,7 +29,7 @@ mongoose.connect(dbURI, (err, db) => {
       {
         username: 'Bete',
         email: 'b@mail.com',
-        image: 'http://mcnurmahal.org/img/avtar.png',
+        image: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwierMOs1MPjAhWuxIUKHQSoAuEQjRx6BAgBEAU&url=https%3A%2F%2Fdesigndroide.com%2Ffemale-avatar-2.html&psig=AOvVaw1TWCU5nYBpQaxOrOjF9IXu&ust=1563717613930357',
         password: 'b',
         passwordConfirmation: 'b'
       },{
